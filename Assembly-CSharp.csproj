@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Botao.cs" />
+     <Compile Include="Assets\Scripts\Explosao.cs" />
+     <Compile Include="Assets\Scripts\GerarInimigos.cs" />
+     <Compile Include="Assets\Scripts\Inimigo.cs" />
      <Compile Include="Assets\Scripts\Jogador.cs" />
      <Compile Include="Assets\Scripts\MoverFundo.cs" />
  <Reference Include="UnityEngine.Analytics">

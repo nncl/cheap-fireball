@@ -21,4 +21,10 @@ public class Jogador : MonoBehaviour {
 			transform.position = Vector2.Lerp (transform.position, posicaoMouse, velocidade * Time.deltaTime);
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D c){
+		if (c.gameObject.tag == "Inimigo") {
+			print ("Bateu no inimigo");
+		}
+	}
 }
