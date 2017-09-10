@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Jogador : MonoBehaviour {
 
 	public float velocidade, alturaY;
 	public int vidas;
+	public Text txtVidas;
 	Vector2 posicaoInicial;
 
 	void Start () {
@@ -18,6 +20,9 @@ public class Jogador : MonoBehaviour {
 	}
 	
 	void Update () {
+
+		txtVidas.text = vidas.ToString ();
+		
 		if (Input.GetButton("Fire1")) {
 			Vector2 posicaoMouse = Input.mousePosition;
 			posicaoMouse = Camera.main.ScreenToWorldPoint (posicaoMouse);
