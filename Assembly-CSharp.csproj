@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Inimigo.cs" />
      <Compile Include="Assets\Scripts\Jogador.cs" />
      <Compile Include="Assets\Scripts\MoverFundo.cs" />
+     <Compile Include="Assets\Scripts\Touchdown.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
