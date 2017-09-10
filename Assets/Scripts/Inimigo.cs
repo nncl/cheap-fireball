@@ -14,7 +14,7 @@ public class Inimigo : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D (Collision2D c) {
-		if (c.gameObject.tag != "Jogador") {
+		if (c.gameObject.tag == "Jogador") {
 			Instantiate (explosaoPrefab, transform.position, transform.rotation);
 			Destroy (gameObject);
 		}
