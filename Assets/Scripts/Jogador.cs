@@ -20,7 +20,6 @@ public class Jogador : MonoBehaviour {
 	}
 	
 	void Update () {
-
 		txtVidas.text = vidas.ToString ();
 		
 		if (Input.GetButton("Fire1")) {
